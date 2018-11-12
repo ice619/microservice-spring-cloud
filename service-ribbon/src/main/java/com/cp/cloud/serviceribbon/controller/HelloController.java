@@ -20,6 +20,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hi(@RequestParam String name){
+        System.out.println("ribbon...");
         return helloService.helloService(name);
     }
 

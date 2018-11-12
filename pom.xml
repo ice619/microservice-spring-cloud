@@ -9,11 +9,6 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <modules>
-        <module>microservice-consumer-movie</module>
-        <module>microservice-provider-user</module>
-    </modules>
-
 
     <parent>
         <groupId>org.springframework.boot</groupId>

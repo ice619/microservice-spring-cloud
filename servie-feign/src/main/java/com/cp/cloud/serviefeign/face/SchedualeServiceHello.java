@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * Created by cp on 2018/10/17.
  */
-@FeignClient(value = "eureka-client-hello")
+@FeignClient(value = "eureka-client-hello",fallback = SchedualServiceHiHystric.class)
 public interface SchedualeServiceHello {
 
     @RequestMapping(value = "/hello")
