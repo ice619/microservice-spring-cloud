@@ -1,4 +1,4 @@
-package com.cp.cloud.serviefeign.face;
+package com.cp.cloud.servicefeign.face;
 
 import org.springframework.stereotype.Component;
 
