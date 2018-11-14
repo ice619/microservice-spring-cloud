@@ -25,6 +25,7 @@
         <module>service-zuul</module>
         <module>config-client</module>
         <module>config-server</module>
+        <module>zipkin-service-hi</module>
     </modules>
 
     <dependencyManagement>
